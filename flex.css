@@ -1,0 +1,15 @@
+
+/* Display */
+.d-flex{ display: flex; } /* sätter orden bredvid varandra och inte under*/
+
+/* flex */
+.flex-grow{ flex-grow: 1; }
+
+
+/* Align & Justify */
+.justify-content-between { justify-content: space-between; }
+
+
+
+
+
