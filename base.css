@@ -69,6 +69,35 @@
     padding: 0;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body{
+ 
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+line-height: 1,6;
+color: var(--c-dark);
+font-size: var(--d-sm) ;
+min-height: 100vh;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  letter-spacing: .05rem; /* utrymme mellan bokstäver*/
+}
+
+.h1,h1 {font-size: var(--distance-13);}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px, 10px/16px= 62.5% */
+}
+
 /*background colors*/
 .bg-primary, .btn-primary {background-color:var(--c-primary); }
 .bg-secondary, .btn-secondary{background-color:var(--c-secondary); }
