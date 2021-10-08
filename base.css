@@ -1,0 +1,16 @@
+:root{
+    /*colors*/
+
+    --c-primary:#a597e7;
+    --c-secondary:#6c757d;
+    --c-success:#b5d56a;
+    --c-info:#84bed6;
+    --c-warning:#f0c24b;
+    --c-danger:#ea7066;
+    --c-light: #f8f9fa;
+    --c-dark:#343a40;
+    --c-white:#fff;
+    --c-cozy:#ea77ad;
+    --c-transparent:transparent;
+    --c-border:#dee2e6;
+    --c-dark-transparent:rgba(0,0,0,0.2);}
