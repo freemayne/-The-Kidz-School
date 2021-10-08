@@ -13,4 +13,72 @@
     --c-cozy:#ea77ad;
     --c-transparent:transparent;
     --c-border:#dee2e6;
-    --c-dark-transparent:rgba(0,0,0,0.2);}
+    --c-dark-transparent:rgba(0,0,0,0.2);
+
+    /*display*/
+
+    --d-xxs: 1rem;
+    --d-xs: 1.4rem;
+    --d-sm: 1.6rem;
+    --d-md: 1.8rem;
+    --d-lg: 2rem;
+    --d-xl: 2.5rem;
+    --d-xxl: 3rem;
+
+    /* Lineheight*/
+    --ln-h-sm: 1rem;
+    --ln-h-md: 1.6rem;
+    --ln-h-lg: 3rem;
+
+    /* Distance */
+    --distance-0: 0rem;
+    --distance-1: .25rem;
+    --distance-2: .5rem;
+    --distance-3: .75rem;
+    --distance-4: 1rem;
+    --distance-5: 1.25rem;
+    --distance-6: 1.5rem;
+    --distance-7: 1.75rem;
+    --distance-8: 2rem;
+    --distance-9: 2.25rem;
+    --distance-10: 2.5rem;
+    --distance-11: 2.75rem;
+    --distance-12: 3.25rem;
+    --distance-13: 3.5rem;
+    --distance-14: 3.75rem;
+    --distance-15: 4rem;
+    
+/* Shadows*/
+--shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1);
+--shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
+
+/* Borders */
+--border-xs-white: 0.1rem solid var(var(--c-white));
+--border-xs: .1rem solid var(var(--c-light));
+--border-sm: .2rem solid var(var(var(--c-light)));
+--border-lg: .4rem solid var(var(--c-white));
+
+--border-radius-sm: .25rem;
+--border-success: .2rem solid var(--border-color-success);
+--border-transparent: .1 solid var(var(--c-transparent))
+
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*background colors*/
+.bg-primary, .btn-primary {background-color:var(--c-primary); }
+.bg-secondary, .btn-secondary{background-color:var(--c-secondary); }
+.bg-success, .btn-success{background-color:var(--c-success); }
+.bg-info, .btn-info{background-color:var(--c-info); }
+.bg-warning, .btn-warning{background-color:var(--c-warning); }
+.bg-danger, .btn-danger{background-color:var(--c-danger); }
+.bg-light .btn-light { background-color:var(--c-light); }
+.bg-dark .btn-dark { background-color:var(--c-dark); }
+.bg-white, .btn-white { background-color:var(--c-white); }
+.bg-cozy, .btn-cozy { background-color:var(--c-cozy); }
+.bg-transparent { background-color:var(--c-transparent); }
+.bg-dark-transparent {background-color:var(--c-dark-transparent); }
