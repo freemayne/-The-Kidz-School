@@ -54,14 +54,14 @@
 --shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
 
 /* Borders */
---border-xs-white: 0.1rem solid var(var(--c-white));
---border-xs: .1rem solid var(var(--c-light));
---border-sm: .2rem solid var(var(var(--c-light)));
---border-lg: .4rem solid var(var(--c-white));
+--border-xs-white: 0.1rem solid var(--c-white);
+--border-xs: .1rem solid var(--c-light);
+--border-sm: .2rem solid var(--c-light);
+--border-lg: .4rem solid var(--c-white);
 
 --border-radius-sm: .25rem;
 --border-success: .2rem solid var(--border-color-success);
---border-transparent: .1 solid var(var(--c-transparent))
+--border-transparent: .1 solid var(--c-transparent);
 
     
 }
