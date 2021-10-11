@@ -38,6 +38,11 @@
 .mt-15, .my-15 { margin-top: var(--distance-15); }  /*4rem */
 .mb-15, .my-15 { margin-bottom: var(--distance-15); }
 
+
+.mr-1, .mx-1 { margin-right: var(--distance-1);}
+.ml-1, .mx-1 { margin-left: var(--distance-1);}
+.mr-2, .mx-2 { margin-right: var(--distance-2);}
+.ml-2, .mx-2 { margin-left: var(--distance-2);}
 .mr-4, .mx-4 { margin-right: var(--distance-4); }
 .ml-4, .mx-4 { margin-left: var(--distance-4); }
 .mr-6, .mx-6 { margin-right: var(--distance-6); }
@@ -84,6 +89,7 @@
 /* Typography */
 .text-decoration-none { text-decoration: none;}
 .text-center { text-align: center;}
+.text-uppercase { text-transform: uppercase; }
 
 .text-size-xxs { font-size: var(--d-xxs)}
 .text-size-xs { font-size: var(--d-xs)}
@@ -118,6 +124,7 @@ nav div a:not(:first-child){
     .border-small-white { border: var(--border-xs-white); }
     .border-bottom-xs { border-bottom: var(--border-xs); }
     .border-sm { border: var(--border-sm)}
+    .border-transparent { border: var(--border-transparent);}
 
     /* features */
     .f-width { max-width: 33%; }
