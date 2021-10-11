@@ -16,7 +16,7 @@
 
     /* Background */
     background: var(--crayon-color);
-    box-shadow: 2px px 3px var(--crayon-shadow-color);
+    box-shadow: 2px 2px 3px var(--crayon-shadow-color);
 
     background-image:
     /* 3d shadow at the bottom */
@@ -32,16 +32,16 @@
     linear-gradient(to right, transparent 20%, var(--crayon-line-color) 20%,
     var(--crayon-line-color) 23%, transparent 23%),
 
-/* Vertical lines right side */
-linear-gradient(to right, transparent 78%, var(--crayon-line-color) 78%,
-var(--crayon-line-color) 81%, transparent 81%),
+    /* Vertical lines right side */
+    linear-gradient(to right, transparent 78%, var(--crayon-line-color) 78%,
+    var(--crayon-line-color) 81%, transparent 81%),
 
-linear-gradient(to right, transparent 84%, var(--crayon-line-color) 84%,
-var(--crayon-line-color) 87%, transparent 87%),
+    linear-gradient(to right, transparent 84%, var(--crayon-line-color) 84%,
+    var(--crayon-line-color) 87%, transparent 87%),
 
-/* Crayon paper */
-linear-gradient(to right, transparent 8%, var(--crayon-paper-color) 8%,
-var(--crayon-paper-color) 92%, transparent 92%);
+    /* Crayon paper */
+    linear-gradient(to right, transparent 8%, var(--crayon-paper-color) 8%,
+    var(--crayon-paper-color) 92%, transparent 92%);
 
 }
 

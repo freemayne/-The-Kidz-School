@@ -20,23 +20,23 @@
 .ml-auto, .mx-auto {margin-left: auto;}
 
 .mt-0, .my-0 { margin-top: var(--distance-0); }     /* 0rem */
-.mt-0, .my-0 { margin-bottom: var(--distance-0); }
+.mb-0, .my-0 { margin-bottom: var(--distance-0); }
 .mt-1, .my-1 { margin-top: var(--distance-1); }     /* .25rem */
-.mt-1, .my-1 { margin-bottom: var(--distance-1); }
+.mb-1, .my-1 { margin-bottom: var(--distance-1); }
 .mt-2, .my-2 { margin-top: var(--distance-2); }     /* .5rem */
-.mt-2, .my-2 { margin-bottom: var(--distance-2); }
+.mb-2, .my-2 { margin-bottom: var(--distance-2); }
 .mt-4, .my-4 { margin-top: var(--distance-4); }     /* 1rem */
-.mt-4, .my-4 { margin-bottom: var(--distance-4); }
+.mb-4, .my-4 { margin-bottom: var(--distance-4); }
 .mt-6, .my-6 { margin-top: var(--distance-6); }     /* 1.5rem */
-.mt-6, .my-6 { margin-bottom: var(--distance-6); }
+.mb-6, .my-6 { margin-bottom: var(--distance-6); }
 .mt-8, .my-8 { margin-top: var(--distance-8); }     /* 2rem */
-.mt-8, .my-8 { margin-bottom: var(--distance-8); }
+.mb-8, .my-8 { margin-bottom: var(--distance-8); }
 .mt-10, .my-10 { margin-top: var(--distance-10); }  /* 2.5rem */
-.mt-10, .my-10 { margin-bottom: var(--distance-10); }
+.mb-10, .my-10 { margin-bottom: var(--distance-10); }
 .mt-12, .my-12 { margin-top: var(--distance-12); }  /* 3rem */
-.mt-12, .my-12 { margin-bottom: var(--distance-12); }
+.mb-12, .my-12 { margin-bottom: var(--distance-12); }
 .mt-15, .my-15 { margin-top: var(--distance-15); }  /*4rem */
-.mt-15, .my-15 { margin-bottom: var(--distance-15); }
+.mb-15, .my-15 { margin-bottom: var(--distance-15); }
 
 .mr-4, .mx-4 { margin-right: var(--distance-4); }
 .ml-4, .mx-4 { margin-left: var(--distance-4); }
@@ -50,6 +50,9 @@
 .p-8 { padding: var(--distance-8);}
 .p-12 { padding: var(--distance-12);}
 .p-15 { padding: var(--distance-15);}
+
+.pr-12, .px-12 { padding-right: var(--distance-12)}
+.pl-12, .px-12 { padding-left: var(--distance-12)}
 
 /* Colored Bar */
 
@@ -111,6 +114,9 @@ nav div a:not(:first-child){
 .border-radius {border-radius: var(--border-radius-sm)}
     .border-small-white { border: var(--border-xs-white); }
     .border-bottom-xs { border-bottom: var(--border-xs); }
+
+    /* featuers */
+    .f-width { max-width: 33%; }
 
 
 

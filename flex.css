@@ -9,6 +9,7 @@
 .flex-column { flex-direction: column;}
 .flex-row-reverse { flex-direction: row-reverse;}
 .flex-grow{ flex-grow: 1; }
+.flex-wrap {flex-wrap: wrap;}
 
 
 /* Align & Justify */
