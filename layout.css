@@ -100,6 +100,7 @@
 
 /* Shadows */
 .shadow-sm {box-shadow: var(--shadow-small-light);}
+.shadow-lg {box-shadow: var(--shadow-large-light);}
 
 /* Buttons */
 nav div a:not(:first-child){
@@ -114,10 +115,14 @@ nav div a:not(:first-child){
 .border-radius {border-radius: var(--border-radius-sm)}
     .border-small-white { border: var(--border-xs-white); }
     .border-bottom-xs { border-bottom: var(--border-xs); }
+    .border-sm { border: var(--border-sm)}
 
-    /* featuers */
+    /* features */
     .f-width { max-width: 33%; }
 
+    /* Icons */
+    .icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375rem; }
+    .icon-circle { width: 6.2rem; height: 6.2rem; line-height: 6rem;}
 
 
 
