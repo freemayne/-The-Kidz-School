@@ -15,7 +15,7 @@
 }
 
 
-/* Margin */
+/* Margin */     /* mx-auto gör att både mr och ml blir samma vilket centrerar innehållet */
 .mr-auto, .mx-auto {margin-right: auto;}
 .ml-auto, .mx-auto {margin-left: auto;}
 
@@ -107,6 +107,10 @@
 
 /* Circle */
 .circle {border-radius: 100%;}
+.circle-lg { width: 15rem; height: 15rem;}
+
+
+
 
 /* Shadows */
 .shadow-sm {box-shadow: var(--shadow-small-light);}
