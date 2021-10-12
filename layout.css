@@ -1,7 +1,8 @@
 
 /* Widths */
 
-.max-width {max-width: 192rem;} /*gör så att logon följer med i kanten ifall man förstorar eller förminskar storleken på hemsidan */
+.max-width {max-width: 192rem; } /*gör så att logon följer med i kanten ifall man förstorar eller förminskar storleken på hemsidan */
+.card-width {max-width: 60rem; }
 
 
 /* Position */
@@ -70,6 +71,7 @@
 
 /* Images */
 .logo-width { max-width: 13rem; }
+.img-lg-width { max-width: 60%; }
 
 /* slideshow */
 
@@ -92,6 +94,7 @@
 .text-decoration-none { text-decoration: none;}
 .text-center { text-align: center;}
 .text-uppercase { text-transform: uppercase; }
+.text-bold { font-weight: bold;}
 
 .text-size-xxs { font-size: var(--d-xxs)}
 .text-size-xs { font-size: var(--d-xs)}
