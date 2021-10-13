@@ -45,6 +45,8 @@
 .mb-15, .my-15 { margin-bottom: var(--distance-15); }
 
 
+
+
 .mr-1, .mx-1 { margin-right: var(--distance-1);}
 .ml-1, .mx-1 { margin-left: var(--distance-1);}
 .mr-2, .mx-2 { margin-right: var(--distance-2);}
@@ -86,7 +88,7 @@
 .slider-width { width: 400%;} /* 1 imgage är 100% */
 .slider-container { width: 25%;} /* Display first of 4 images */
 .slider-image { width: 100%; object-fit: cover; }
-/* .slider-animation { animation: 30s slider-keyframes infinite; } */
+.slider-animation { animation: 30s slider-keyframes infinite; } 
 
 @keyframes slider-keyframes {
     0% { left: 0%; }
